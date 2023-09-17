@@ -6,6 +6,7 @@
 
 `SpringBeansUtil`提供了在Spring环境下可以随时随地从Spring容器中获取Bean的能力。
 
+### 使用
 ```java
 import org.springframework.stereotype.Component;
 
@@ -25,3 +26,6 @@ public class Demo {
     }
 }
 ```
+
+## 2. 全局统一异常处理
+[GlobalExceptionHandler.java](src%2Fmain%2Fjava%2Fcom%2Flzx%2Fspringbootgeneralfunctions%2Fexception%2Fhandler%2FGlobalExceptionHandler.java)
